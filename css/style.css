@@ -208,7 +208,7 @@ h6 {
 .btn-default {
     background: transparent;
     border: 1px solid #fff;
-    color: #fff;
+    color: #393939;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -275,9 +275,10 @@ ul.list-check li::before {
 /* SECTION TITLE
 ----------------------------------------------------- */
 .section-title {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
     color: #2c3e50;
     position: relative;
