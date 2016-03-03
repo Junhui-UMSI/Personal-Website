@@ -13,6 +13,11 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="images/ico/favicon.ico" rel = "icon">
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/typed.js"></script>
 </head><!--/head-->
 <body>
 
@@ -221,12 +226,6 @@ margin-bottom: 25px;">
 
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-2.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/typed.js"></script>
     <!-- <script src="js/jquery.sticky.js"></script> -->
     <!-- <script>
       $(document).ready(function(){
@@ -247,36 +246,32 @@ margin-bottom: 25px;">
       });
   });
 </script>
+    <script src="js/main.js"></script>
+
 <script>
-$(function () {
+$(document).ready(function () {
     // Check the initial Poistion of the Sticky Header
-    var stickyHeader = $('#nav').scrollTop();
-    // var sticky = $(window).height();
-    console.log(stickyHeader);
-    // console.log(sticky);
 
     $(window).scroll(function () {
+	console.log($(window).scrollTop());
+	console.log($(window).height());
         if ($(window).scrollTop() > $(window).height()) {
             $('#nav').css({
                 position: 'fixed',
+                top: '0',
+                width: '100%'
             });
-            console.log($(window).height());
-            console.log(sticky);
 
             // $('#othercontent').css('margin-top', $('#nav').outerHeight(true) + parseInt($('#landing').css('marginBottom')));
         } else {
             $('#nav').css({
                 position: 'static',
             });
-            console.log(stickyHeader);
-            console.log(sticky);
 
             // $('#othercontent').css('margin-top', '0px');
         }
     });
 });
 </script>
-    <script src="js/main.js"></script>
-
 </body>
 </html>
