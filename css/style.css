@@ -10,10 +10,6 @@ body{
     -webkit-font-smoothing: antialiased !important;
 }
 
-body, html{
-    /*overflow-x:hidden;*/
-}
-
 /* Link style
 ---------------------------------------------------------*/
 a {
@@ -572,7 +568,7 @@ SOCIAL ICON
 
 .myphoto{
     position: relative;
-    background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
+    /*background: url(../../assets/images/photo-frame.png) bottom center no-repeat;*/
     background-size: contain;
     /*box-sizing: border-box;
     box-sizing: -webkit-border-box;*/
@@ -597,48 +593,6 @@ SOCIAL ICON
 }
 
 
-
-/* === Video Section === */
-
-.video-section {
-    background: url(../images/video-bg.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
-.video-section .tf-bg-overlay {
-    min-height: 500px;
-}
-.video-intro {
-    position: absolute;
-    top: 50%;
-    margin-top: -50px;
-    left: 0;
-    right:0;
-    color: #fff;
-    background: none;
-}
-
-.video-intro i{
-    border: 1px solid #fff;
-    width: 80px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.video-intro h2 {
-    margin-top: 30px;
-    text-transform: uppercase;
-}
-
-.video-intro .play-trigger {
-    border: 0;
-    background: transparent;
-}
-
-/* === Resume Section === */
 
 /*---------------------------------------------------------
 Resume Timeline
@@ -848,8 +802,8 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
-    color: #fff;
+    /*background: #68c3a3;*/
+    /*color: #fff;*/
 }
 
 .timeline>li .timeline-panel::before,
@@ -869,7 +823,8 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    /*border-left: 12px solid #68c3a3;*/
+    border-left: 12px solid;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -881,7 +836,8 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    /*border-right: 12px solid #68c3a3;*/
+    border-right: 12px solid;
     border-left: 0;
 }
 
@@ -903,7 +859,9 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    /*border-left: 12px solid #68c3a3;*/
+    border-left: 12px solid;
+
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -916,7 +874,8 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    /*border-right: 12px solid #68c3a3;*/
+    border-right: 12px solid;
     border-left: 0;
 }
 
@@ -1343,126 +1302,6 @@ Resume Timeline
 .blog-more {
     margin-top: 40px;
 }
-
-/*
-Icon for all respective meta
-====================================== */
-.the-author::before{
-    content: "\f044";
-}
-.the-time::before{
-    content: "\f133";
-}
-.the-share::before{
-    content: "\f1e0";
-}
-.the-comments::before{
-    content: "\f0e6";
-}
-
-.the-author,
-.the-time,
-.the-share,
-.the-comments {
-    position: relative;
-    padding-left: 20px;
-}
-
-.the-author::before,
-.the-time::before,
-.the-share::before,
-.the-comments::before{
-    font-family: FontAwesome;
-    position: absolute;
-    left: 0;
-}
-
-/* === Hire Section === */
-.hire-section {
-    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #fff;
-}
-.hire-section-bg {
-    padding: 110px 0;
-    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
-}
-
-.hire-section h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.hire-section .btn {
-    padding: 9px 54px;
-}
-
-
-/* === Contact Section === */
-.contact-section  {
-
-}
-
-.contact-section strong {
-    display: block;
-    text-transform: uppercase;
-}
-.contact-form strong {
-    margin-bottom: 40px;
-}
-
-.contact-form textarea.form-control {
-    height: 115px;
-}
-
-.contact-form .btn {
-    margin-top: 15px;
-}
-
-.contact-section div > i{
-    float: left;
-    font-size: 45px;
-    margin-right: 20px;
-}
-.contact-section address,
-.contact-section .contact-number {
-    overflow: hidden;
-    line-height: 30px;
-    font-weight: 400;
-    margin-bottom: 45px
-}
-
-
-/*MAP*/
-.location-map {
-    padding: 4px;
-    border: 1px solid #eee;
-    border-bottom: 3px double #eee;
-}
-.map-canvas {
-    height: 350px;
-}
-
-
-
-
-/* === Footer Wrapper === */
-.footer-wrapper {
-    background: #1a1e23;
-    padding: 36px 0;
-    color: #fff;
-
-}
-.copyright p {
-    margin: 0;
-}
-
-
-
 
 
 

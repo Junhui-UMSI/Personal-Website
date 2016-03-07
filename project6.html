@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Junhui's Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head><!--/head-->
+<body>
+
+
+  <div class="project-bg6"></div>
+
+  <header id="nav" class="navbar navbar-inverse wet-asphalt midnight-blue project-nav" role="banner" style="margin:0px;">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="images/logo copy.png" alt="logo"></a>
+          </div>
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="project4.html">Last</a></li>
+                  <li><a href="project1.html">Next</a></li>
+                  <li><a href="index.html#portfolio">Close</a></li>
+              </ul>
+          </div>
+      </div>
+  </header>
+
+    <section class="container">
+      <h1 class="project-title">Gym Buddy App design</h1>
+      <div class="row">
+          <div class="col-sm-12 col-md-6">
+              <img class="project-image" src="images/Gym-1.png" alt="Sketch">
+          </div>
+          <div class="col-sm-12 col-md-6">
+              <!-- <h3 class="project-title">Overview</h3> -->
+              <ul class="project-content">
+              <li><strong>Outcome: </strong>This project is still undergoing, will expect an app prototype by April</li>
+              <li><strong>Description: </strong>The Gym Buddy is an app to help the gym rookies to overcome their gym fear and connect them to the experts insied the gym. </li>
+              <li><strong>My role: </strong>UX Researcher|UX Designer</li>
+              <li><strong>Skills: </strong>BrainStorming, Comprtitive Analysis, Sktech, Persona, StoryBoard, WireFrame, Prototyping</li>
+            </ul>
+            </div>
+        </div>
+
+          <div class="col-sm-12 project-block">
+            <h3 class="project-title">Sketch</h3>
+            <hr class="project-hr">
+            <img class="project-image" src="images/Gym-1.png" alt="Sketch">
+          </div>
+
+          <div class="col-sm-12 project-block">
+            <h3 class="project-title">Persona</h3>
+              <img class="project-image" src="images/persona.png" alt="Persona">
+          </div>
+
+    </section>
+
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2016 <a target="_blank" href="http://www.junhui-li.com" title="Junhui Li">Junhui Li</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    $(document).ready(function () {
+        // Check the initial Poistion of the Sticky Header
+
+        $(window).scroll(function () {
+      console.log($(window).scrollTop());
+      // console.log($(window).height());
+            if ($(window).scrollTop() > 500) {
+                $('#nav').css({
+                    display:'inline-block',
+                    position: 'fixed',
+                    top: '0',
+                    width: '100%'
+                });
+            } else {
+                $('#nav').css({
+                    display: 'none',
+                    position: 'static'
+                });
+
+
+            }
+        });
+    });
+    </script>
+</body>
+</html>

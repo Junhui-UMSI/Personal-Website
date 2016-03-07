@@ -31,9 +31,8 @@ html{
   width:100%;
 }
 body {
-  color: #34495e;
+  color: #393939;
   background: #f5f5f5;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   height:100%;
   width:100%;
@@ -59,7 +58,7 @@ a {
 }
 hr {
   border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(57, 57, 57, 0.95);
 }
 .btn {
   font-weight: 400;
@@ -74,7 +73,7 @@ hr {
 }
 a:hover,
 a:focus {
-  color: #d9534f;
+  color: #fff;
   text-decoration: none;
   outline: none;
 }
@@ -301,7 +300,7 @@ a:focus {
   color: #d9534f;
 }
 .midnight-blue {
-  background-color: #2c3e50;
+  background-color: #393939;
 }
 .concrete {
   background-color: #95a5a6;
@@ -1100,16 +1099,10 @@ ul.faq li > div h3 {
 }
 .project-title{
   text-align: center;
-  margin: 50px 0 50px;
+  margin: 50px 0 80px;
 }
 .project-image{
   width:100%;
-}
-.project-button-1{
-  text-align: left;
-}
-.project-button-2{
-  text-align: right;
 }
 .project-video{
   text-align: center;
@@ -1211,7 +1204,7 @@ padding-top: 15px;
   text-align: center;
 }
 .project-hr{
-  width:50%;
+  width:10%;
   text-align: center;
 }
 .parallax-window {
@@ -1236,11 +1229,142 @@ section.container{
   display:block;
 }
 .project-content{
-  padding-left:0px;
-  padding-top: 10px;
   font-size: 18px;
+  padding:10px 0 10px;
+  color: #393939;
 }
 .project-process{
   font-size: 18px;
   padding:10px 0 10px;
+}
+.skill-list img{
+  margin-bottom: 20px;
+}
+.skill-list strong{
+  font-size:25px;
+  margin-bottom: 15px;
+}
+.project-bg2{
+  background: url(../images/Mock-up2.png) rgba(51,51,51,0.5) no-repeat center center fixed;
+  width:100%;
+  height:500px;
+  background-size: cover;
+}
+.project-bg1{
+    background: url(../images/CHI-0.jpg) rgba(51,51,51,0.5) no-repeat center center fixed;
+    width:100%;
+    height:500px;
+    background-size: cover;
+}
+.project-bg4{
+  background: url(../images/Mock-up4.png) rgba(51,51,51,0.5) no-repeat center center fixed;
+  width:100%;
+  height:500px;
+  background-size: cover;
+}
+.project-bg5{
+  background: url(../images/Mock-up5.png) rgba(51,51,51,0.5) no-repeat center center fixed;
+  width:100%;
+  height:500px;
+  background-size: cover;
+}
+.project-bg6{
+  background: url(../images/Mock-up6.png) rgba(51,51,51,0.5) no-repeat center center fixed;
+  width:100%;
+  height:500px;
+  background-size: cover;
+}
+.project-bg3{
+  background: url(../images/Mock-up3.png) rgba(51,51,51,0.5) no-repeat center center fixed;
+  width:100%;
+  height:500px;
+  background-size: cover;
+}
+.project-nav{
+  display:none;
+}
+.project-title{
+  text-transform: uppercase;
+}
+.project-emaphasize{
+  font-weight: 400;
+}
+.project-skills li{
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,.15);
+    line-height: 32px;
+    display: inline;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #F04;
+    padding: 4px 9px;
+
+}
+.project-span{
+  position: relative;
+display: inline-block;
+width: 18px;
+height: 1px;
+margin: 0 18px 7px 18px;
+background: #000;
+}
+.project-header{
+  position:relative;
+  display:block;
+  text-align: center;
+  width:100%;
+  }
+.project-header h3{
+  display:inline-block;
+}
+.project-overview-content div{
+  display: inline-block;
+vertical-align: top;
+text-align: center;
+/*margin-right: 8%;*/
+}
+.project-overview-content h6{
+  font-weight: 400;
+  font-size: 25px;
+
+}
+.project-overview-content p{
+  line-height: 42px;
+  font-size: 22px;
+  text-align: center;
+  color:#393939;
+}
+.button{
+  display: inline-block;
+height: 72px;
+padding-left: 48px;
+padding-right: 48px;
+line-height: 72px;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+text-decoration: none;
+white-space: nowrap;
+color: #fff;
+background: #000;
+box-shadow: inset 0 0 0 1px #000, inset 0 0px #fff, 0 0px #000;
+}
+.project-button :hover{
+  display: inline-block;
+height: 72px;
+padding-left: 48px;
+padding-right: 48px;
+line-height: 72px;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+text-decoration: none;
+white-space: nowrap;
+color: #000;
+background: #fff;
+box-shadow: inset 0 0 0 1px #000, inset 0 0px #000, 0 0px #000;
+}
+.project-button{
+  text-align: center;
+  margin-top: 120px;
 }

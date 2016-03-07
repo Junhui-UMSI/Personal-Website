@@ -9,8 +9,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="images/ico/favicon.ico" rel = "icon">
     <script src="js/jquery-2.2.1.min.js"></script>
@@ -67,7 +65,7 @@ margin-bottom: 25px;">
         <li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
         <li><a class="btn btn-default" href="#" data-filter=".UX">UX</a></li>
         <li><a class="btn btn-default" href="#" data-filter=".Web">Web Design and Develop</a></li>
-        <li><a class="btn btn-default" href="#" data-filter=".Data">Data Analysis</a></li>
+        <!-- <li><a class="btn btn-default" href="#" data-filter=".Data">Data Analysis</a></li> -->
     </ul>
     <ul class="portfolio-items col-3">
         <li class="portfolio-item UX">
@@ -86,14 +84,14 @@ margin-bottom: 25px;">
                 <h5>Chinese Calligraphy</h5>
             </div>
         </li><!--/.portfolio-item-->
-        <li class="portfolio-item Data">
+        <!-- <li class="portfolio-item Data">
             <div class="item-inner">
                 <a href="project3.html">
                 <img src="images/portfolio/thumb/item3.jpg" alt="">
                 </a>
                 <h5>Life Expectancy Analysis</h5>
             </div>
-        </li>
+        </li> -->
         <li class="portfolio-item Web">
             <div class="item-inner">
                 <a href="project4.html">
@@ -110,12 +108,12 @@ margin-bottom: 25px;">
                 <h5>Gym Buddy App</h5>
             </div>
         </li>
-        <li class="portfolio-item">
+        <li class="portfolio-item Web">
             <div class="item-inner">
-                <a href="project7.html">
-                <img src="images/portfolio/thumb/8.jpg" alt="">
+                <a href="project6.html">
+                <img src="images/portfolio/thumb/item6.jpg" alt="">
                 </a>
-                <h5>Next?</h5>
+                <h5>Detroit International Institute Website</h5>
             </div>
         </li>
     </ul>
@@ -206,20 +204,16 @@ margin-bottom: 25px;">
 </div>
 
 
-<!-- Resume Section -->
+<!-- Experience Section -->
 <!-- <div class="section-bg"> -->
 <section id="experience" class="resume-section">
   <div class="container">
-    <!-- <h2 class="section-title wow fadeInUp">Resume</h2> -->
     <h3 class="skill-title">Experience</h3>
     <div class="row">
       <div class="col-md-12">
         <div class="download-button">
           <a class="btn btn-primary btn-lg" href="Junhui.pdf"><i class="fa fa-download"></i>download my resume</a>
         </div>
-        <!-- <div class="resume-title">
-          <h3>Work Experience</h3>
-        </div> -->
         <div class="resume">
           <ul class="timeline">
             <li class="timeline-inverted">
@@ -352,36 +346,6 @@ and input thousands of archive data into the database system by using SQL statem
 </section>
 <!-- </div> -->
 
-<!-- <section id="contact-page" class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h4>Contact Form</h4>
-      <div class="status alert alert-success" style="display: none"></div>
-      <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="form-group">
-              <input type="text" class="form-control" required="required" placeholder="First Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" required="required" placeholder="Last Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" required="required" placeholder="Email address">
-            </div>
-          </div>
-          <div class="col-sm-12">
-            <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
-            <div class="form-group contact-button">
-              <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</section> -->
-
 <footer id="footer" class="midnight-blue">
     <div class="container">
         <div class="row">
@@ -423,16 +387,12 @@ $(document).ready(function () {
                 top: '0',
                 width: '100%'
             });
-
-
-            // $('#othercontent').css('margin-top', $('#nav').outerHeight(true) + parseInt($('#landing').css('marginBottom')));
         } else {
             $('#nav').css({
                 position: 'static',
             });
 
 
-            // $('#othercontent').css('margin-top', '0px');
         }
     });
 });
