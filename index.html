@@ -28,8 +28,12 @@
     </div>
 
     <hr class="landing-hr">
-    <a href="index.html#portfolio">
-    <div class="landing-button">More</div>
+    
+    <div class="mouse-icon">
+     <div class="wheel"></div>
+    </div>
+    <!-- <a href="index.html#portfolio">
+    <div class="landing-button">More</div> -->
   </a>
   </div>
   </div>
@@ -84,17 +88,9 @@ margin-bottom: 25px;">
                 <h5>Chinese Calligraphy</h5>
             </div>
         </li><!--/.portfolio-item-->
-        <!-- <li class="portfolio-item Data">
-            <div class="item-inner">
-                <a href="project3.html">
-                <img src="images/portfolio/thumb/item3.jpg" alt="">
-                </a>
-                <h5>Life Expectancy Analysis</h5>
-            </div>
-        </li> -->
         <li class="portfolio-item Web">
             <div class="item-inner">
-                <a href="project4.html">
+                <a href="project3.html">
                 <img src="images/portfolio/thumb/item4.jpg" alt="">
                 </a>
                 <h5>19 century art website</h5>
@@ -102,7 +98,7 @@ margin-bottom: 25px;">
         </li>
         <li class="portfolio-item UX">
             <div class="item-inner">
-                <a href="project5.html">
+                <a href="project4.html">
                 <img src="images/portfolio/thumb/item5.jpg" alt="">
                  </a>
                 <h5>Gym Buddy App</h5>
@@ -110,7 +106,7 @@ margin-bottom: 25px;">
         </li>
         <li class="portfolio-item Web">
             <div class="item-inner">
-                <a href="project6.html">
+                <a href="project5.html">
                 <img src="images/portfolio/thumb/item6.jpg" alt="">
                 </a>
                 <h5>Detroit International Institute Website</h5>
@@ -379,8 +375,8 @@ $(document).ready(function () {
     // Check the initial Poistion of the Sticky Header
 
     $(window).scroll(function () {
-	console.log($(window).scrollTop());
-	console.log($(window).height());
+	// console.log($(window).scrollTop());
+	// console.log($(window).height());
         if ($(window).scrollTop() > $(window).height()) {
             $('#nav').css({
                 position: 'fixed',
@@ -397,5 +393,13 @@ $(document).ready(function () {
     });
 });
 </script>
+<!-- <script>
+   $(".landing-button").click(function(){
+     var divPosition = $('#portfolio').offset();
+    console.log(divPosition);
+     $('html, body').animate({scrollTop: divPosition.top}, "1");
+   });
+
+</script> -->
 </body>
 </html>

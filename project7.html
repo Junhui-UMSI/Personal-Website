@@ -8,13 +8,14 @@
     <title>Junhui's Portfolio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head><!--/head-->
 <body>
 
-
-  <div class="project-bg6"></div>
+  <div class="project-bg3"></div>
 
   <header id="nav" class="navbar navbar-inverse wet-asphalt midnight-blue project-nav" role="banner" style="margin:0px;">
       <div class="container">
@@ -29,8 +30,8 @@
           </div>
           <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="project4.html">Last</a></li>
-                  <li><a href="project1.html">Next</a></li>
+                  <li><a href="project2.html">Last</a></li>
+                  <li><a href="project4.html">Next</a></li>
                   <li><a href="index.html#portfolio">Close</a></li>
               </ul>
           </div>
@@ -38,32 +39,61 @@
   </header>
 
     <section class="container">
-      <h1 class="project-title">Gym Buddy App design</h1>
+      <h1 class="project-title">Life Expectancy Analysis</h1>
       <div class="row">
           <div class="col-sm-12 col-md-6">
-              <img class="project-image" src="images/Gym-1.png" alt="Sketch">
+              <img class="project-image" src="images/Data-1.jpg" alt="Preliminary Research">
           </div>
           <div class="col-sm-12 col-md-6">
               <!-- <h3 class="project-title">Overview</h3> -->
               <ul class="project-content">
-              <li><strong>Outcome: </strong>This project is still undergoing, will expect an app prototype by April</li>
-              <li><strong>Description: </strong>The Gym Buddy is an app to help the gym rookies to overcome their gym fear and connect them to the experts insied the gym. </li>
-              <li><strong>My role: </strong>UX Researcher|UX Designer</li>
-              <li><strong>Skills: </strong>BrainStorming, Comprtitive Analysis, Sktech, Persona, StoryBoard, WireFrame, Prototyping</li>
+              <li><strong>Outcome: </strong>A data analysis report regards the expectancy life length</li>
+              <li><strong>Description: </strong>This Project is part of the Course Data Analysis and Statistics. This project is intend to find out the factors that effect the life expectancy by performing a linrear regression regarding factors from various aspects that might effect life expectancy.</li>
+              <li><strong>My role: </strong>Data Analyst</li>
+              <li><strong>Skills: </strong>Excel, R</li>
+              <li>Report: <a href="Statistically Analysis of Life Expectancy of Countries.pdf"><strong>Download</strong></a></li>
             </ul>
-            </div>
+          </div>
         </div>
-
           <div class="col-sm-12 project-block">
-            <h3 class="project-title">Sketch</h3>
+            <h3 class="project-title">Linear Regression Model</h3>
             <hr class="project-hr">
-            <img class="project-image" src="images/Gym-1.png" alt="Sketch">
-          </div>
 
-          <div class="col-sm-12 project-block">
-            <h3 class="project-title">Persona</h3>
-              <img class="project-image" src="images/persona.png" alt="Persona">
+            <p class="project-process">The Analysis process is consists of five sections:
+            <br>1. Initializing regression: regarding 5 fields that could effect the life expectancy, we choose 8 factors to initialize the regression.
+            <br>2. Adjust Regression: We examined the colliearity problem and used BP test to exclude the outliers of the regression.</p>
+          <div class="col-sm-6">
+              <img class="project-image" src="images/Data-2.jpg" alt="Contextual Inquiry">
           </div>
+          <div class="col-sm-6">
+<img class="project-image" src="images/Data-3.jpg" alt="Parallel Design">
+          </div>
+        </div>
+        <div class="col-sm-12 project-block">
+          <h3 class="project-title">Prediction</h3>
+          <hr class="project-hr">
+          <p class="project-process">
+          <br>3. Making Prediction based on the regression: Based on the regression, we utilize the R to make prediction of the life expectency.
+          <br>4. Using three countries to test the regression: To examine the regression, we use three countries to test the difference between estimated and true life expectency.
+        </p>
+          <div class="col-sm-6">
+              <img class="project-image" src="images/Data-4.jpg" alt="Parallel Design">
+          </div>
+          <div class="col-sm-6">
+              <img class="project-image" src="images/Data-5.jpg" alt="Parallel Design">
+          </div>
+        </div>
+        <div class="col-sm-12 project-block">
+          <h3 class="project-title">Hypothesis Testing</h3>
+          <hr class="project-hr">
+          <p class="project-process">5. Running Hypothesis testing: We propose a hypothesis that the life expectancy between diffent continent has no significant difference and using t-statistics to test it. </p>
+          <div class="col-sm-6">
+              <img class="project-image" src="images/Data-6.jpg" alt="Parallel Design">
+          </div>
+          <div class="col-sm-6">
+              <img class="project-image" src="images/Data-7.jpg" alt="Parallel Design">
+          </div>
+      </div>
 
     </section>
 

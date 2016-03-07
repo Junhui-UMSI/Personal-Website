@@ -1,12 +1,12 @@
 
 $(document).ready(function() {
     $(window).stellar();
-    
+
 });
 
 $(document).ready(
 
-  function() { 
+function() {
 
     $("html").niceScroll({
         cursorcolor:"rgba(30,30,30,.5)",
@@ -15,12 +15,8 @@ $(document).ready(
         mousescrollstep:50,
         cursorborder:"0px solid #fff",
     });
-      
+    
 
   }
 
 );
-
-
-
-

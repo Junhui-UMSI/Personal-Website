@@ -1339,7 +1339,7 @@ Resume Timeline
 /* ---------------------------------------------- */
 
 .mouse-icon {
-	position: absolute;
+	position: relative;
 	left: 50%;
 	bottom: 40px;
 	border: 2px solid #fff;
@@ -1347,6 +1347,7 @@ Resume Timeline
 	height: 50px;
 	width: 30px;
 	margin-left: -17px;
+  margin-top: 80px;
 	display: block;
 	z-index: 10;
 }
